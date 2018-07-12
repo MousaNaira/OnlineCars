@@ -1,0 +1,65 @@
+﻿
+@model  IEnumerable<OnlineCars.Models.CarViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<head>
+    <title></title>
+    <meta http-equiv="refresh" content="5" />
+</head>
+
+<script type="text/javascript">
+function timedRefresh(timeoutPeriod) {
+    setTimeout(function() {
+        location.reload(true);
+    }, timeoutPeriod);
+}
+</script>
+
+<table class="table table-dark" id="tbl" >
+    <thead>
+        <tr>
+            <th scope="col">Model</th>
+            <th scope="col">Image</th>
+            <th scope="col">Price</th>
+            <th scope="col">Lot</th>
+            <th scope="col">Bids</th>
+            <th scope="col">Time Left</th>
+        </tr>
+    </thead>
+    <tbody>
+      @foreach (var item in Model)
+      {
+        <tr> <td>@item.modelAr @item.makeAr @item.year</td>
+        <td>
+            @item.Image
+        </td>
+        <td>@item.AdditionalInfo.currentPrice  @item.AdditionalInfo.currencyAr</td>
+        <td>@item.AdditionalInfo.lot</td>
+        <td>@item.AdditionalInfo.bids</td>
+        <td>@item.AdditionalInfo.endDateAr</td>
+        </tr>
+
+      }   
+       
+    </tbody>
+</table>
+
+<center>
+    
+    @Html.ActionLink("Load More Data", "LoadMore", "Search", null, new { @class = "btn btn-primary", style = "width: 11%;" })
+
+
+</center>
+
+
+@*@section Scripts {
+$(document).ready(function() {
+    $('#tbl').DataTable();
+} );
+
+
+
+}*@

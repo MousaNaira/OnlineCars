@@ -1,0 +1,12 @@
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\bin\Debug\OnlineCars.Data.dll.config
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\bin\Debug\OnlineCars.Data.dll
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\bin\Debug\OnlineCars.Data.pdb
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\bin\Debug\EntityFramework.dll
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\bin\Debug\EntityFramework.xml
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\obj\Debug\OnlineCars.Data.csprojResolveAssemblyReference.cache
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\obj\Debug\OnlineCars.Data.dll
+c:\users\naira.mousa\documents\visual studio 2015\Projects\OnlineCars\OnlineCars.Data\obj\Debug\OnlineCars.Data.pdb
+C:\Users\naira.mousa\Documents\Visual Studio 2015\Projects\OnlineCars\OnlineCars.Data\obj\Debug\OnlineCars.Data.Migrations.FirstMigration.resources
+C:\Users\naira.mousa\Documents\Visual Studio 2015\Projects\OnlineCars\OnlineCars.Data\obj\Debug\OnlineCars.Data.csproj.GenerateResource.Cache
